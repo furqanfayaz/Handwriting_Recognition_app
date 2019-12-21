@@ -1,3 +1,9 @@
-const Index = () => <div>Hey there!!</div>;
+import Upload from '../components/Upload';
+
+const Index = () => {
+    return (
+        <Upload />
+    )
+};
 
 export default Index;
